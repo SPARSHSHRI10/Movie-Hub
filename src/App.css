@@ -1,0 +1,61 @@
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.header {
+  width: 100%;
+  background-color:  #282c34;
+  cursor: pointer;  
+  position: fixed;
+  align-items: center;
+  display: flex; 
+  justify-content: center;
+  height: 12vh;
+  font-size: 5vw;
+  padding-bottom: 15px;
+  box-shadow: 0px 1px 5px purple;
+  color: white;
+  z-index: 100;
+}
+
+@media (max-width : 1000px)
+{
+  .header {
+    padding-top: 15px;
+    font-size: 6.4vw;
+  }
+}
+
+.app {
+  min-height: 100vh;
+  background-color: rgb(99, 76, 121);
+  color: white;
+  padding-top: 130px;
+  padding-bottom: 70px;
+}
+
+@media (max-width : 700px){
+  .app{
+    padding-top: 100px;
+  }
+}
+
+.pageTitle{
+  text-transform: uppercase;
+  display:flex;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2vw;
+  padding: 4px;
+  border-radius: 50px;
+  color : white;
+}
+
+@media (max-width : 1000px) {
+  .pageTitle {
+    font-size: 6.4vw;
+  }
+}
