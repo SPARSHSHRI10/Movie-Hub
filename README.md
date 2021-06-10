@@ -15,4 +15,4 @@ A web application built using React JS that enables you to search movies and Tv 
 
  * Create a .env file on the root of your project and add your own API key to the file. You can request one here https://developers.themoviedb.org/
 
-   REACT_APP_API_KEY = WRITE YOUR PUBLIC MARVEL API KEY HERE
+   REACT_APP_API_KEY = WRITE YOUR API KEY HERE
