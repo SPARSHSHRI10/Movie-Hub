@@ -11,6 +11,9 @@ A web application built using React JS that enables you to search movies and Tv 
 * React Router Dom
 * TMDB API
 
+# Live Version
+Site is live at https://themoviehub-ss.netlify.app/
+
 # Creating your own API key
 
  * Create a .env file on the root of your project and add your own API key to the file. You can request one here https://developers.themoviedb.org/
